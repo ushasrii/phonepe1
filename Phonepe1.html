@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonepe</title>
+    <style>
+        *{
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            padding: 1.8%;
+           
+        }
+ 
+        .navbar a{
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+            margin-left: 3.5%;
+            vertical-align: middle;
+            
+
+        }
+        .navbar a:hover{
+            color:indigo;
+        }
+        
+        .container {
+        position: relative;
+        text-align: center;
+        color: indigo;
+        }
+        p{
+  
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        padding-top: 80px;
+        padding-left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+        }
+        #cont2{
+            position: absolute;
+            top:8px;
+            left:16px;
+            padding-top: 150px;
+            padding-left: 100px;
+            font-size: 20px;
+            color:#000;
+            
+        }
+        #btn{
+            position: relative;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color:indigo;
+            color:lightgray;
+            border-radius: 25px;
+           text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        #link{
+            position: absolute;
+            top:230px;
+            left:200px;
+            background-color:#fff;
+            color:lightgray;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        h1{
+            padding-top: 10%;
+            padding-left: 10%;
+            color:indigo;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+           
+        }
+        #matter{
+            padding-top: 35%;
+            padding-left:7%;
+            color:#000;
+            text-align: left;
+            font-size:50px;
+            color:indigo;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        aside {
+        padding-left: 15px;
+        margin-left: 60px;
+         float: left;
+        }
+        #vd{
+            float:right;
+        }
+        #cont3{
+            padding-top:44%;
+            font-size: 20px;
+            color:black;
+            padding-right:50%;
+            text-align: left;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="logo" href="https://www.phonepe.com/">
+            <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzIgNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6IzVmMjU5Zn08L3N0eWxlPjxjaXJjbGUgdHJhbnNmb3JtPSJyb3RhdGUoLTc2LjcxNCAxNy44NyAyNC4wMDEpIiBjbGFzcz0ic3QwIiBjeD0iMTcuOSIgY3k9IjI0IiByPSIxNy45Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTkwLjUgMzQuMnYtNi41YzAtMS42LS42LTIuNC0yLjEtMi40LS42IDAtMS4zLjEtMS43LjJWMzVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYyMy45YzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA1LjYgMS45IDUuNiA1LjR2Ny40YzAgLjMtLjMuNi0uNi42SDkyYy0uOSAwLTEuNS0uNy0xLjUtMS41em05LTMuOWwtLjEuOWMwIDEuMi44IDEuOSAyLjEgMS45IDEgMCAxLjktLjMgMi45LS44LjEgMCAuMi0uMS4zLS4xLjIgMCAuMy4xLjQuMi4xLjEuMy40LjMuNC4yLjMuNC43LjQgMSAwIC41LS4zIDEtLjcgMS4yLTEuMS42LTIuNC45LTMuOC45LTEuNiAwLTIuOS0uNC0zLjktMS4yLTEtLjktMS42LTIuMS0xLjYtMy42di0zLjljMC0zLjEgMi01IDUuNC01IDMuMyAwIDUuMiAxLjggNS4yIDV2Mi40YzAgLjMtLjMuNi0uNi42aC02LjN6bS0uMS0yLjJIMTAzLjJ2LTFjMC0xLjItLjctMi0xLjktMnMtMS45LjctMS45IDJ2MXptMjUuNSAyLjJsLS4xLjljMCAxLjIuOCAxLjkgMi4xIDEuOSAxIDAgMS45LS4zIDIuOS0uOC4xIDAgLjItLjEuMy0uMS4yIDAgLjMuMS40LjIuMS4xLjMuNC4zLjQuMi4zLjQuNy40IDEgMCAuNS0uMyAxLS43IDEuMi0xLjEuNi0yLjQuOS0zLjguOS0xLjYgMC0yLjktLjQtMy45LTEuMi0xLS45LTEuNi0yLjEtMS42LTMuNnYtMy45YzAtMy4xIDItNSA1LjQtNSAzLjMgMCA1LjIgMS44IDUuMiA1djIuNGMwIC4zLS4zLjYtLjYuNmgtNi4zem0tLjEtMi4ySDEyOC42di0xYzAtMS4yLS43LTItMS45LTJzLTEuOS43LTEuOSAydjF6TTY2IDM1LjdoMS40Yy4zIDAgLjYtLjMuNi0uNnYtNy40YzAtMy40LTEuOC01LjQtNC44LTUuNC0uOSAwLTEuOS4yLTIuNS40VjE5YzAtLjgtLjctMS41LTEuNS0xLjVoLTEuNGMtLjMgMC0uNi4zLS42LjZ2MTdjMCAuMy4zLjYuNi42aDIuM2MuMyAwIC42LS4zLjYtLjZ2LTkuNGMuNS0uMiAxLjItLjMgMS43LS4zIDEuNSAwIDIuMS43IDIuMSAyLjR2Ni41Yy4xLjcuNyAxLjQgMS41IDEuNHptMTUuMS04LjRWMzFjMCAzLjEtMi4xIDUtNS42IDUtMy40IDAtNS42LTEuOS01LjYtNXYtMy43YzAtMy4xIDIuMS01IDUuNi01IDMuNSAwIDUuNiAxLjkgNS42IDV6bS0zLjUgMGMwLTEuMi0uNy0yLTItMnMtMiAuNy0yIDJWMzFjMCAxLjIuNyAxLjkgMiAxLjlzMi0uNyAyLTEuOXYtMy43em0tMjIuMy0xLjdjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40ek01MS43IDIzYzAtMS42LTEuMS0yLjQtMi42LTIuNC0uOSAwLTEuNS4zLTEuNS4zdjYuNmMuNi4zLjkuNCAxLjYuNCAxLjUgMCAyLjYtLjkgMi42LTIuNFYyM3ptNjguMiAyLjZjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40em0tMy42LTIuNmMwLTEuNi0xLjEtMi40LTIuNi0yLjQtLjkgMC0xLjUuMy0xLjUuM3Y2LjZjLjYuMy45LjQgMS42LjQgMS41IDAgMi42LS45IDIuNi0yLjRWMjN6Ii8+PHBhdGggZD0iTTI2IDE5LjNjMC0uNy0uNi0xLjMtMS4zLTEuM2gtMi40bC01LjUtNi4zYy0uNS0uNi0xLjMtLjgtMi4xLS42bC0xLjkuNmMtLjMuMS0uNC41LS4yLjdsNiA1LjdIOS41Yy0uMyAwLS41LjItLjUuNXYxYzAgLjcuNiAxLjMgMS4zIDEuM2gxLjR2NC44YzAgMy42IDEuOSA1LjcgNS4xIDUuNyAxIDAgMS44LS4xIDIuOC0uNXYzLjJjMCAuOS43IDEuNiAxLjYgMS42aDEuNGMuMyAwIC42LS4zLjYtLjZWMjAuOGgyLjNjLjMgMCAuNS0uMi41LS41di0xem0tNi40IDguNmMtLjYuMy0xLjQuNC0yIC40LTEuNiAwLTIuNC0uOC0yLjQtMi42di00LjhoNC40djd6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"  width="15%" alt="logo"/>
+        </a>
+        <a href="https://www.phonepe.com/business-solutions/">BUSINESS SOLUTIONS</a>
+        <a href="https://www.phonepe.com/press/">PRESS</a>
+        <a href="https://www.phonepe.com/careers/">CAREERS</a>
+        <a href="https://www.phonepe.com/about-us/">ABOUT US</a>
+        <a href="https://www.phonepe.com/blog/">BLOG</a>
+        <a href="https://www.phonepe.com/contact-us/">CONTACT US</a>
+        <a href="https://www.phonepe.com/trust-and-safety/">TRUST & SAFETY</a></nav>
+
+        
+        <div class="container">
+        <img src="https://www.phonepe.com/webstatic/5807/static/6a8e4748cf99b4e497a2d04e8b8389cc/5707d/hp-banner1.png" style="width:100%"/> 
+        <p>Build your career at PhonePe!</p>
+        <p id="cont2">Become a part of India’s Fintech revolution<br>
+            Join our team of disruptors!</p>
+       
+        <p id="matter">Simple, Fast & Secure</p><br><br><br>
+        <p id="cont3">
+        <b style="font-size:25px;">One app for all things money. </b><br><br>
+        <b style="font-size:12px;">Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</b><br><br><br><br><br>
+        <b style="font-size:25px;" >Pay whenever you like, wherever you like.</b><br><br>
+        <b style="font-size:12px;">Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.</b><br><br><br><br><br>
+        <b style="font-size:25px;"> Find all your favourite apps on PhonePe Switch.</b><br><br>
+        <b style="font-size:12px;"> Book flights, order food or buy groceries. Use all your favourite apps without downloading them.</b></p>
+        <aside id="vd">
+            <video controls src="https://www.phonepe.com/webstatic/5807/videos/page/home-fast-secure-v3.mp4"  loop autoplay></video>
+        </aside>
+        <a id="link" href="https://www.phonepe.com/app-download/"><button id="btn">Get the App</button></a>
+        </div>
+</body>
+</html>
